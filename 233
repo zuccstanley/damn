@@ -1,0 +1,12 @@
+man命令用来访问存储在Linux系统上的手册页面。在想要查找的工具的名称前面输入man命 令，就可以找到那个工具相应的手册条目。
+man工具通常提供的是命令所对应的低编号的内容。  
+，在Windows中经常看到这样的文件路径： 
+c:\Users\Rich\Documents\test.doc
+Linux则采用了一种不同的方式。Linux将文件存储在单个目录结构中，这个目录被称为虚拟 目录（virtual directory）。虚拟目录将安装在PC上的所有存储设备的文件路径纳入单个目录结构中。
+ Linux虚拟目录结构只包含一个称为根（root）目录的基础目录。根目录下的目录和文件会按 照访问它们的目录路径一一列出。
+现Linux使用正斜线（/）而不是反斜线（\）在文件路径中划分目录。
+在Linux中，你会看到下面这种路径： 
+/home/Rich/Documents/test.doc 这表明文件test.doc位于Documents目录，Documents又位于rich目录中，rich则在home目录中。 要注意的是，路径本身并没有提供任何有关文件究竟存放在哪个物理磁盘上的信息。
+在Linux文件系统上，可以使用切换目录命令cd将shell会话切换到另一个目录。cd命令的格 式非常简单： 
+cd destination cd命令可接受单个参数destination，用以指定想切换到的目录名。如果没有为cd命令指 定目标路径，它将切换到用户主目录。
+在python方面；学习了’find’、’center’、’join’、’lower’、’replace’、’split’的字符串方法
